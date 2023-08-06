@@ -2,7 +2,7 @@
 
 <!--INICIO del cont principal-->
 <div class="container">
-    <h1>Hospitales</h1>
+    <h1>Hospitals</h1>
     
     
     
@@ -34,10 +34,10 @@ $data=$resultado->fetchAll(PDO::FETCH_ASSOC);
                         <thead class="text-center">
                             <tr>
                                 <th>Id</th>
-                                <th>Nombre</th>
-                                <th>Descripcion</th>                                
-                                <th>Lugar</th>  
-                                <th>Acciones</th>
+                                <th>Name</th>
+                                <th>Description</th>                                
+                                <th>Location</th>  
+                                <th>Actions</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -73,19 +73,19 @@ $data=$resultado->fetchAll(PDO::FETCH_ASSOC);
         <form id="formHospitales">    
             <div class="modal-body">
                 <div class="form-group">
-                <label for="nombre" class="col-form-label">Nombre:</label>
+                <label for="nombre" class="col-form-label">Name:</label>
                 <input type="text" class="form-control" id="nombre">
                 </div>
                 <div class="form-group">
-                <label for="pais" class="col-form-label">Descripcion:</label>
+                <label for="pais" class="col-form-label">Description:</label>
                 <input type="text" class="form-control" id="descripcion">
                 </div>                
                 <div class="form-group">
-                <label for="edad" class="col-form-label">Lugar:</label>
+                <label for="edad" class="col-form-label">Location:</label>
                 <input type="text" class="form-control" id="lugar">
                 </div> 
                 <div class="form-group">
-                <label for="edad" class="col-form-label">Contraseña:</label>
+                <label for="edad" class="col-form-label">Password:</label>
                 <input type="text" class="form-control" id="lugar">
                 </div>            
             </div>

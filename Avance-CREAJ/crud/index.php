@@ -27,10 +27,10 @@ $data=$resultado->fetchAll(PDO::FETCH_ASSOC);
                         <thead class="text-center">
                             <tr>
                                 <th>Id</th>
-                                <th>Nombre</th>
-                                <th>apellidos</th>                                
-                                <th>telefono</th>  
-                                <th>Acciones</th>
+                                <th>Name</th>
+                                <th>Lastname</th>                                
+                                <th>Phone</th>  
+                                <th>Actions</th>
                             </tr>
                         </thead>
                         <tbody>

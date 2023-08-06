@@ -18,7 +18,7 @@ if($_SESSION["correo"] === null){
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Salud Rural</title>
+  <title>Rural Health</title>
 
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -47,7 +47,7 @@ if($_SESSION["correo"] === null){
         <div class="sidebar-brand-icon rotate-n-15">
           <i class="fas fa-laugh-wink"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">Salud Rural</div>
+        <div class="sidebar-brand-text mx-3">Rural Health</div>
       </a>
 
       <!-- Divider -->
@@ -57,7 +57,7 @@ if($_SESSION["correo"] === null){
       <li class="nav-item active">
         <a class="nav-link" href="index.php">
           <i class="fas fa-fw fa-tachometer-alt"></i>
-          <span>Registro de Usuarios</span></a>
+          <span>User Registration</span></a>
       </li>
 
       <!-- Divider -->
@@ -80,11 +80,11 @@ if($_SESSION["correo"] === null){
                 </a>
                 <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Donaciones:</h6>
-                        <a class="collapse-item" href="donacion_mone.php">Monetaria</a>
-                        <a class="collapse-item" href="donacion_insu.php">Insumos</a>
-                        <a class="collapse-item" href="donacion_medi.php">Medicamentos</a>
-                        <a class="collapse-item" href="donacion_equi.php">Equipo medico</a>
+                        <h6 class="collapse-header">Donations:</h6>
+                        <a class="collapse-item" href="donacion_mone.php">Monetary</a>
+                        <a class="collapse-item" href="donacion_insu.php">Supplies</a>
+                        <a class="collapse-item" href="donacion_medi.php">Medications</a>
+                        <a class="collapse-item" href="donacion_equi.php">Medical equipment</a>
                         <div class="collapse-divider"></div>
                     </div>
                 </div>
@@ -92,7 +92,7 @@ if($_SESSION["correo"] === null){
             <li class="nav-item">
                 <a class="nav-link" href="hospitales.php">
                     <i class="fa fa-hospital-o"></i>
-                    <span>Hospitales</span></a>
+                    <span>Hospitals</span></a>
             </li>
 
       <!-- Sidebar Toggler (Sidebar) -->
@@ -150,7 +150,7 @@ if($_SESSION["correo"] === null){
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
                   <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-                  Cerrar Sesión
+                  Log out
                 </a>
               </div>
             </li>
