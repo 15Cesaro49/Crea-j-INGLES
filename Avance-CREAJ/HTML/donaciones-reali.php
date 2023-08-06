@@ -22,7 +22,7 @@ if ($correo == null || $correo == '') {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Donaciones realizadas</title>
+    <title>Donations made</title>
     <link rel="shortcut icon" href="../Imagenes/favicon.png" />
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -31,7 +31,7 @@ if ($correo == null || $correo == '') {
 <nav class="bg-white p-4">
         <div class="flex justify-between items-center">
             <!-- Logo o nombre del sitio -->
-            <a href="#" class="text-green text-2xl font-bold">SaludRural</a>
+            <a href="#" class="text-green text-2xl font-bold">RuralHeat</a>
 
             <!-- Menú de navegación -->
             <ul class="flex space-x-4">
@@ -39,20 +39,20 @@ if ($correo == null || $correo == '') {
                 <li class="relative">
                     <!-- Enlace con menú desplegable -->
                     <a href="#" class="text-black hover:bg-blue-600 hover:text-white rounded-md px-3 py-2 text-sm font-medium" id="donaciones-menu">
-                        <span>Donaciones</span>
+                        <span>Donations</span>
                         <i class="fas fa-chevron-down ml-1"></i> <!-- Flecha hacia abajo -->
                     </a>
 
                     <!-- Menú desplegable -->
                     <ul class="absolute top-10 left-1/2 transform -translate-x-1/2 bg-white shadow-md rounded-md hidden" id="donaciones-menu-items">
-                        <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Medicamentos</a></li>
-                        <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Equipos medicos</a></li>
-                        <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Isumos medicos</a></li>
-                        <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Monetaria</a></li>
+                        <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Medications</a></li>
+                        <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Medical equipment</a></li>
+                        <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Medical supplies</a></li>
+                        <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Monetary</a></li>
                     </ul>
                 </li>
                 <li><a href="#" class="text-black hover:bg-blue-600 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Blog</a></li>
-                <li><a href="#" class="text-black hover:bg-blue-600 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Acerca de</a></li>
+                <li><a href="#" class="text-black hover:bg-blue-600 hover:text-white rounded-md px-3 py-2 text-sm font-medium">About us</a></li>
             </ul>
 
             <div class="relative">
@@ -69,14 +69,14 @@ if ($correo == null || $correo == '') {
                     echo '<li><a href="#" class="block px-1 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">' . $_SESSION['correo'] . '</a></li>';
                 }
                 ?>
-                <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Configuración</a></li>
-                <li><a href="../PHP/cerrar.php" class="block px-4 py-2 text-red-600 hover:bg-red-600 hover:text-white">Cerrar Sesión</a></li>
+                <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Configuration</a></li>
+                <li><a href="../PHP/cerrar.php" class="block px-4 py-2 text-red-600 hover:bg-red-600 hover:text-white">Logout</a></li>
             </ul>
             </div>
     </nav>
 
     <div class="w-full max-w-mn p-8  rounded-lg shadow-lg  mx-auto">
-        <h1 class="text-4xl font-bold mb-4 text-center">Donaciones realizadas</h1>
+        <h1 class="text-4xl font-bold mb-4 text-center">Donations made</h1>
 
         <?php
 
@@ -162,7 +162,7 @@ if ($correo == null || $correo == '') {
 </body>
 <footer class="bg-white text-black py-6">
     <div class="container mx-auto text-center">
-      <p>&copy; 2023 Mi Blog. Todos los derechos reservados.</p>
+      <p>&copy; 2023. All rights reserved.</p>
     </div>
   </footer>
 </html>
