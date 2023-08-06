@@ -50,32 +50,32 @@ if (!isset($_SESSION['correo']) || empty($_SESSION['correo'])) {
               <li class="relative">
                   <!-- Enlace con menú desplegable -->
                   <a href="#" class="text-black hover:bg-green-600 hover:text-white rounded-md px-3 py-2 text-sm font-medium" id="donaciones-menu">
-                      <span>Donaciones</span>
+                      <span>Donations</span>
                       <i class="fas fa-chevron-down ml-1"></i> <!-- Flecha hacia abajo -->
                   </a>
 
                   <!-- Menú desplegable -->
                   <ul class="absolute top-10 left-1/2 transform -translate-x-1/2 bg-white shadow-md rounded-md hidden" id="donaciones-menu-items">
-                      <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Medicamentos</a></li>
-                      <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Equipos medicos</a></li>
-                      <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Isumos medicos</a></li>
-                      <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Monetaria</a></li>
-                      <li><a href="donaciones-reali.php" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Realizadas</a></li>
+                      <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Medications</a></li>
+                      <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Medical equipment</a></li>
+                      <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Medical supplies</a></li>
+                      <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Monetary</a></li>
+                      <li><a href="donaciones-reali.php" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Performed</a></li>
                   </ul>
               </li>
               <li><a href="#" class="text-black hover:bg-blue-600 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Blog</a></li>
-              <li><a href="#" class="text-black hover:bg-blue-600 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Nosotros</a></li>
+              <li><a href="#" class="text-black hover:bg-blue-600 hover:text-white rounded-md px-3 py-2 text-sm font-medium">About us</a></li>
               <li class="relative">
                   <!-- Enlace con menú desplegable -->
                   <a href="#" class="text-black hover:bg-blue-600 hover:text-white rounded-md px-3 py-2 text-sm font-medium" id="hospitales-menu">
-                      <span>Hospitales</span>
+                      <span>Hospitals</span>
                       <i class="fas fa-chevron-down ml-1"></i> <!-- Flecha hacia abajo -->
                   </a>
 
                   <!-- Menú desplegable -->
                   <ul class="absolute top-10 left-1/2 transform -translate-x-1/2 bg-white shadow-md rounded-md hidden" id="hospitales-menu-items">
-                      <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Necesidades actuales</a></li>
-                      <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Historias de exito</a></li>
+                      <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Current needs</a></li>
+                      <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Success Stories</a></li>
                   </ul>
               </li>
           </ul>
@@ -94,8 +94,8 @@ if (!isset($_SESSION['correo']) || empty($_SESSION['correo'])) {
                   echo '<li><a href="#" class="block px-1 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">' . $_SESSION['correo'] . '</a></li>';
               }
               ?>
-              <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Configuración</a></li>
-              <li><a href="../PHP/cerrar.php" class="block px-4 py-2 text-red-600 hover:bg-red-600 hover:text-white">Cerrar Sesión</a></li>
+              <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Configuration</a></li>
+              <li><a href="../PHP/cerrar.php" class="block px-4 py-2 text-red-600 hover:bg-red-600 hover:text-white">Close Session</a></li>
           </ul>
           </div>
   </nav>
@@ -120,9 +120,9 @@ if (!isset($_SESSION['correo']) || empty($_SESSION['correo'])) {
       <div class="container1">
         <div class="text">
           <h2 class="subtitle">
-            <strong>Sobre Nosotros</strong>
+            <strong>About Us</strong>
           </h2>
-          <p>Somos una organización que busca ayudar a la sociedad más necesitada de nuestro país <span class="bolded1">"El Salvador"</span>, a través de donaciones para hospitales y centros médicos que se encuentran en las zonas rurales del país, es decir, las comunidades marginadas y abandonadas que existen en todo el territorio nacional.</p>
+          <p>We are an organization that seeks to help the neediest society in our country. <span class="bolded1">"El Salvador"</span>, through donations to hospitals and medical centers located in rural areas of the country, i.e., the marginalized and abandoned communities that exist throughout the country.</p>
         </div>
         <div class="image">
           <img class="donativoimg" src="../Imagenes/CajaDonativos.png" width="330" height="250" alt="imagen">
@@ -131,31 +131,31 @@ if (!isset($_SESSION['correo']) || empty($_SESSION['correo'])) {
       
       <div class="container">
         <div class="paragraph">
-          <p>Nuestro equipo está conformado por profesionales apasionados y comprometidos con la salud pública y la equidad en la atención médica. Trabajamos en estrecha colaboración con hospitales y centros médicos en áreas rurales para comprender sus necesidades y brindarles el apoyo necesario. Valoramos la transparencia y la responsabilidad en nuestro trabajo. Nos esforzamos por mantener una comunicación clara con nuestros donantes y socios, proporcionándoles actualizaciones sobre cómo se utilizan sus contribuciones y el impacto que están generando.</p>
+          <p>Our team is made up of passionate professionals committed to public health and equity in healthcare. We work closely with hospitals and medical centers in rural areas to understand their needs and provide the necessary support. We value transparency and accountability in our work. We strive to maintain clear communication with our donors and partners, providing them with updates on how their contributions are being used and the impact they are making.</p>
         </div>
         <div class="paragraph">
-          <p>En <span class="bolded">SaludRural</span>, creemos firmemente en el poder de la solidaridad y la generosidad. A través de nuestra plataforma, permitimos a personas y organizaciones donar de manera segura y directa a proyectos y necesidades específicas de los hospitales y centros médicos rurales. Facilitamos la conexión entre donantes y receptores, asegurando que cada donación tenga un impacto significativo y positivo en la vida de las personas. Estamos emocionados de ser parte del cambio y el progreso en la atención médica de las zonas rurales. <a href="../HTML/login.php"><span class="negra">Únete a nosotros en SaludRural</span></a> y juntos hagamos la diferencia en la salud y el bienestar de las comunidades rurales de nuestro país.</p>
+          <p>At <span class="bolded">Rural Heat</span>, we strongly believe in the power of solidarity and generosity. Through our platform, we enable individuals and organizations to donate securely and directly to specific projects and needs of rural hospitals and medical centers. We facilitate the connection between donors and recipients, ensuring that every donation has a meaningful and positive impact on people's lives. We are excited to be a part of change and progress in rural healthcare. <a href="../HTML/login.php"><span class="negra">Join us at RuralHeat</span></a>and together let's make a difference in the health and well-being of our country's rural communities.</p>
         </div>
       </div>
 
       <div class="targets-container">
         <div class="target">
-          <h3><strong>Misión</strong></h3>
-          <p>Ser una organización que promueva y facilite las donaciones a hospitales y centros médicos ubicados en zonas rurales del país. <strong class="strongT">SaludRural</strong> se compromete a conectar de manera efectiva a los donantes con estas instituciones, brindando una plataforma segura y transparente para canalizar recursos y apoyar la atención médica en las comunidades más remotas y marginadas de todo el territorio nacional. Por último, impulsar un cambio significativo en la salud, promoviendo la equidad y la mejora de la calidad de vida de quienes más lo necesitan.</p>
+          <h3><strong>Mission</strong></h3>
+          <p>To be an organization that promotes and facilitates donations to hospitals and medical centers located in rural areas of the country. <strong class="strongT">RuralHeat</strong> is committed to effectively connect donors with these institutions, providing a secure and transparent platform to channel resources and support medical care in the most remote and marginalized communities throughout the country. Finally, to drive meaningful change in healthcare, promoting equity and improving the quality of life for those who need it most.</p>
         </div>
         <div class="target">
           <h3><strong>Visión</strong></h3>
-          <p>Queremos lograr ser una organización líder en el ámbito de las donaciones a hospitales y centros médicos en zonas rurales del país. Nos esforzamos por ser el referente principal para aquellos que deseen contribuir al bienestar de las comunidades rurales a través de donaciones significativas y de impacto. Buscamos establecer alianzas sólidas con hospitales y centros médicos, así como con donantes comprometidos, para construir en un futuro una cultura de equidad, y que el acceso a la atención médica sea una realidad para todos, sin importar su ubicación geográfica. Aspiramos a ser reconocidos como un agente de cambio en la atención médica rural, mejorando la calidad de vida de las personas y generando un impacto duradero en la salud de la población salvadoreña.</p>
+          <p>We want to be a leading organization in the field of donations to hospitals and medical centers in rural areas of the country. We strive to be the main reference for those who wish to contribute to the welfare of rural communities through meaningful and impactful donations. We seek to establish solid alliances with hospitals and medical centers, as well as with committed donors, to build a culture of equity in the future, and to make access to medical care a reality for all, regardless of their geographic location. We aspire to be recognized as an agent of change in rural health care, improving people's quality of life and generating a lasting impact on the health of the Salvadoran population.</p>
         </div>
       </div>
  
-      <h2><strong>Historia de SaludRural</strong></h2>
-      <p><strong>SaludRural</strong> nació como una idea en común de 5 estudiantes del <a href="https://www.cdb.edu.sv/"><strong>Colegio Don Bosco</strong></a>, estos estudiantes son: Xavier Zañas, Carlos López, David Murgas, César Serrano y Julio Jacinto. Estos jóvenes compartían una pasión común por ayudar a los demás y siempre estaban buscando formas de marcar una diferencia positiva en la sociedad.</p>
-      <p>Un día, mientras se reunían en la biblioteca de la escuela para trabajar en un proyecto conjunto, surgió una idea que iluminó sus mentes. Se dieron cuenta de que muchas comunidades rurales cercanas carecían de acceso adecuado a servicios de salud, y esto les preocupaba profundamente. Decidieron unir fuerzas y crear una solución que pudiera marcar la diferencia en la vida de las personas en estas áreas.</p>
-      <p>Así nació <strong>SaludRural</strong>, una organización sin fines de lucro con una visión clara: facilitar las donaciones a hospitales y centros médicos en zonas rurales a través de una plataforma web. Los cinco estudiantes se dedicaron por completo a este proyecto, invirtiendo su tiempo, esfuerzo y conocimientos en su desarrollo.</p>
-      <p>Trabajaron arduamente para diseñar y construir una plataforma intuitiva y segura donde las personas pudieran realizar donaciones de manera fácil y transparente. Sabían que la confianza de los donantes era fundamental, por lo que se aseguraron de establecer medidas de seguridad robustas para proteger la privacidad y la integridad de las transacciones.</p>
-      <p>La historia de SaludRural se convirtió en un ejemplo de cómo una simple idea, impulsada por la pasión y el deseo de ayudar, puede transformarse en una fuerza poderosa para el cambio. Los cinco estudiantes demostraron que no importa cuán jóvenes sean, si tienen una visión y trabajan juntos, pueden marcar una diferencia significativa en la sociedad.</p>
-      <p>Hasta el día de hoy, SaludRural continúa su labor, creciendo y expandiéndose para llevar esperanza y mejorar la calidad de vida de las comunidades rurales a través de la solidaridad y la generosidad de aquellos que creen en su misión.</p>
+      <h2><strong>History of RuralHeat</strong></h2>
+      <p><strong>RuralHeat</strong> was born as a joint idea of 5 students of the <a href="https://www.cdb.edu.sv/"><strong>Don Bosco School</strong></a>, these students are: Xavier Zañas, Carlos López, David Murgas, César Serrano and Julio Jacinto. These young men shared a common passion for helping others and were always looking for ways to make a positive difference in society.</p>
+      <p>One day, as they were meeting in the school library to work on a joint project, an idea came to their minds. They realized that many nearby rural communities lacked adequate access to health services, and this troubled them deeply. They decided to join forces and create a solution that could make a difference in the lives of people in these areas.</p>
+      <p>Thus was born <strong>RuralHeat</strong>, a non-profit organization with a clear vision: to facilitate donations to hospitals and medical centers in rural areas through a web platform. The five students dedicated themselves entirely to this project, investing their time, effort and knowledge in its development.</p>
+      <p>They worked hard to design and build an intuitive and secure platform where people could donate easily and transparently. They knew that donor trust was critical, so they made sure to put robust security measures in place to protect the privacy and integrity of transactions.</p>
+      <p>The story of SaludRural became an example of how a simple idea, driven by passion and a desire to help, can become a powerful force for change. The five students demonstrated that no matter how young they are, if they have a vision and work together, they can make a significant difference in society..</p>
+      <p>To this day, SaludRural continues its work, growing and expanding to bring hope and improve the quality of life of rural communities through the solidarity and generosity of those who believe in its mission.</p>
     </body>
 
     <!-- Código del footer -->
@@ -191,8 +191,8 @@ if (!isset($_SESSION['correo']) || empty($_SESSION['correo'])) {
       </section>-->
 
       <div class="footer-content">
-        <h3>SaludRural</h3>
-        <p>Si deseas saber más inform.</p>
+        <h3>RuralHeat</h3>
+        <p>If you want to know more information.</p>
 
         <!-- Íconos de las redes sociales -->
         <ul class="socials">
@@ -204,17 +204,17 @@ if (!isset($_SESSION['correo']) || empty($_SESSION['correo'])) {
         <!-- Menú en el footer -->
         <div class="footer-menu">
           <ul class="f-menu">
-            <li><a href=""><strong>Inicio</strong></a></li>
-            <li><a href="">Donaciones</a></li>
+            <li><a href=""><strong>Home</strong></a></li>
+            <li><a href="">Donations</a></li>
             <li><a href="">Blog</a></li>
-            <li><a href="">Acerca de</a></li>
+            <li><a href="">About us</a></li>
           </ul>
         </div>
       </div>
 
       <!-- Footer sub-alterno -->
       <div class="footer-bottom">
-        <p><small id="26">&copy; 2023 <b>SaludRural</b> - Todos los Derechos Reservados.</small></p>
+        <p><small id="26">&copy; 2023 <b>RuralHeat</b> - All rights reserved.</small></p>
       </div>
     </footer>
     
