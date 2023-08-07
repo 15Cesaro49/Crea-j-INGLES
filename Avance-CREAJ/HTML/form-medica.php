@@ -9,31 +9,31 @@
 <body>
 
     <div class="container">
-      <header>Donacion de medicamentos</header>
+      <header>Donation of medicines</header>
       <div class="progress-bar">
         <div class="step">
-          <p>Paso 1</p>
+          <p>Step 1</p>
           <div class="bullet">
             <span>1</span>
           </div>
           <div class="check fas fa-check"></div>
         </div>
         <div class="step">
-          <p>Paso 2</p>
+          <p>Step 2</p>
           <div class="bullet">
             <span>2</span>
           </div>
           <div class="check fas fa-check"></div>
         </div>
         <div class="step">
-          <p>Paso 3</p>
+          <p>Step 3</p>
           <div class="bullet">
             <span>3</span>
           </div>
           <div class="check fas fa-check"></div>
         </div>
         <div class="step">
-          <p>Fin</p>
+          <p>End</p>
           <div class="bullet">
             <span>4</span>
           </div>
@@ -44,61 +44,61 @@
         <form action="../PHP/registrar_donacion_2.php" method="post">
           <div class="page slide-page">
             <div class="field">
-              <div class="label">Nombre Completo</div>
+              <div class="label">Full Name</div>
               <input type="text" name="nombre" required>
             </div>
             <div class="field">
-              <div class="label">Correo Electronico</div>
+              <div class="label">E-mail </div>
               <input type="text" name="correo" required>
             </div>
             <div class="field">
-              <button class="firstNext next">Siguiente</button>
+              <button class="firstNext next">Next</button>
             </div>
           </div>
 
           <div class="page">
-            <div class="title">Información de Contacto</div>
+            <div class="title">Contact Information</div>
             <div class="field">
-              <div class="label">Número de Telefono</div>
+              <div class="label">Telephone Number</div>
               <input type="Number" name="telefono" required>
             </div>
             <div class="field">
-              <div class="label">Fecha de la donacion</div>
+              <div class="label">Date of donation</div>
               <input type="datetime-local" name="fecha" required>
             </div>
             <div class="field btns">
-              <button class="prev-1 prev">Atrás</button>
-              <button class="next-1 next">Siguiente</button>
+              <button class="prev-1 prev">Back</button>
+              <button class="next-1 next">Next</button>
             </div>
           </div>
 
           <div class="page">
             <div class="field">
-              <div class="label">Nombre del medicamento</div>
+              <div class="label">Name of drug</div>
               <input type="text" name="medicamento" required>
             </div>
             <div class="field">
-              <div class="label">Cantidad de medicamentos</div>
+              <div class="label">Quantity of drugs</div>
               <input type="number"name="cantidad" required>
             </div>
             <div class="field btns">
-              <button class="prev-2 prev">Atrás</button>
-              <button class="next-2 next">Siguiente</button>
+              <button class="prev-2 prev">Back</button>
+              <button class="next-2 next">Next</button>
             </div>
           </div>
 
           <div class="page">
             <div class="field">
-              <div class="label" >Nombre del hospital </div>
+              <div class="label" >Name of hospital </div>
               <input type="text" placeholder="Donde sera entregada la donacion" name="hospital" required>
             </div>
             <div class="field">
-              <div class="label">Descripcion del medicamento</div>
+              <div class="label">Description of the drug</div>
               <input type="text" placeholder="Fercha de vencimiento, etc.." name="descripcion" required>
             </div>
             <div class="field btns">
-              <button class="prev-3 prev">Atrás</button>
-              <button class="submit">Enviar</button>
+              <button class="prev-3 prev">Back</button>
+              <button class="submit">Send</button>
             </div>
           </div>
         </form>
