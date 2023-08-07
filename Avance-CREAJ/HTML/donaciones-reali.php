@@ -31,11 +31,11 @@ if ($correo == null || $correo == '') {
 <nav class="bg-white p-4">
         <div class="flex justify-between items-center">
             <!-- Logo o nombre del sitio -->
-            <a href="#" class="text-green text-2xl font-bold">RuralHeat</a>
+            <a href="#" class="text-green text-2xl font-bold">RuralHeath</a>
 
             <!-- Menú de navegación -->
             <ul class="flex space-x-4">
-                <li><a href="#" class="text-black hover:bg-blue-600 hover:text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Inicio</a></li>
+                <li><a href="index.php" class="text-black hover:bg-blue-600 hover:text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Home</a></li>
                 <li class="relative">
                     <!-- Enlace con menú desplegable -->
                     <a href="#" class="text-black hover:bg-blue-600 hover:text-white rounded-md px-3 py-2 text-sm font-medium" id="donaciones-menu">
@@ -45,14 +45,15 @@ if ($correo == null || $correo == '') {
 
                     <!-- Menú desplegable -->
                     <ul class="absolute top-10 left-1/2 transform -translate-x-1/2 bg-white shadow-md rounded-md hidden" id="donaciones-menu-items">
-                        <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Medications</a></li>
-                        <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Medical equipment</a></li>
-                        <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Medical supplies</a></li>
-                        <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Monetary</a></li>
+                        <li><a href="form-medica.php" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Medications</a></li>
+                        <li><a href="form-equipo.php" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Medical equipment</a></li>
+                        <li><a href="form-insumo.php" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Medical supplies</a></li>
+                        <li><a href="form-mone.php" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Monetary</a></li>
+                        <li><a href="donaciones-reali.php" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Made</a></li>
                     </ul>
                 </li>
-                <li><a href="#" class="text-black hover:bg-blue-600 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Blog</a></li>
-                <li><a href="#" class="text-black hover:bg-blue-600 hover:text-white rounded-md px-3 py-2 text-sm font-medium">About us</a></li>
+                <li><a href="blog.php" class="text-black hover:bg-blue-600 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Blog</a></li>
+                <li><a href="AcercaDe.php" class="text-black hover:bg-blue-600 hover:text-white rounded-md px-3 py-2 text-sm font-medium">About us</a></li>
             </ul>
 
             <div class="relative">

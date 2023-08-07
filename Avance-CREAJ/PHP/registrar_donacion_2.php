@@ -22,18 +22,18 @@ if(!empty($_POST["correo"])){
         $correo = $_POST["correo"];
         #$contacto = $_POST["info"];
         $telefono = $_POST["telefono"];
-        $genero = $_POST["genero"];
+        #$genero = $_POST["genero"];
         $fecha = $_POST["fecha"];
         $monto = $_POST["monto"];
         $tarjeta = $_POST["tarjeta"];
         $cvv = $_POST["cvv"];
     
         // Insertar la donación asociada al usuario ID
-        $sql = $conn->query ("INSERT INTO `donacion`(`ID`, `usuario_id`, `nombre`, `correo`, `telefono`, `genero`, `fecha`, `monto`, `tarjeta`, `cvv`) VALUES (NULL, '$usuarioId', '$nombre', '$correo', '$telefono', '$genero', '$fecha', '$monto', '$tarjeta', '$cvv')");
+        $sql = $conn->query ("INSERT INTO `donacion`(`ID`, `usuario_id`, `nombre`, `correo`, `telefono`, `genero`, `fecha`, `monto`, `tarjeta`, `cvv`) VALUES (NULL, '$usuarioId', '$nombre', '$correo', '$telefono', '$fecha', '$monto', '$tarjeta', '$cvv')");
     
         // Ejecutar la consulta
         if ($sql) {
-            echo '<script language="javascript">alert("Donación registrada correctamente"); window.location.href="../HTML/Index.php";</script>';
+            echo '<script language="javascript">alert("Donation correctly registered"); window.location.href="../HTML/Index.php";</script>';
             exit; // Salir del script después de mostrar el mensaje de éxito y redirigir
         } else {
             echo '<script language="javascript">alert("Error en el registro de la donación: ' . mysqli_error($conn) . '");</script>';

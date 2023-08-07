@@ -2,14 +2,14 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Donacion monetaria</title>
+    <title>Donations Monetary</title>
     <link rel="stylesheet" href="../CSS/form-donaciones.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
 <body>
 
     <div class="container">
-      <header>Donacion monetaria</header>
+      <header>Donations Monetary</header>
       <div class="progress-bar">
         <div class="step">
           <p>Step 1</p>
@@ -62,7 +62,6 @@
               <div class="label">Telephone Number</div>
               <input type="Number" name="telefono" required>
             </div>
-            <div class="field">
             <div class="field">
               <div class="label" >Name of hospital </div>
               <input type="text" placeholder="Donde sera entregada la donacion" name="hospital" required>

@@ -21,9 +21,9 @@ $cvv = $_POST['cvv'];
 
     $sql = "INSERT INTO mentaria (nombre, correo, telefono, dinero, tarjeta, cvv) VALUES ('$nombre', '$correo', '$telefono','$dinero','$tarjeta','$cvv')";
     if (mysqli_query($conn, $sql)) {
-      echo "<script>alert('La donacion ha sido realizada correctamente'); window.location.href='#';</script>";
+      echo "<script>alert('The donation has been made correctly'); window.location.href='#';</script>";
     } else {
-      echo "<script>alert('Se ha producido un error durante la donacion vuelve a intentarlo'); window.location.href='#';</script> " . mysqli_error($conn);
+      echo "<script>alert('An error occurred during donation, please try again.'); window.location.href='#';</script> " . mysqli_error($conn);
     }
 
 // Cerrar la conexión con la base de datos
