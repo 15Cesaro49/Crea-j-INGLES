@@ -100,21 +100,21 @@ if (isset($_POST["submit"])) {
 
                     <!-- Menú desplegable -->
                     <ul class="absolute top-10 left-1/2 transform -translate-x-1/2 bg-white shadow-md rounded-md hidden" id="donaciones-menu-items">
-                        <li><a href="agregar-blog.php" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Agregar </a></li>
-                        <li><a href="form-equipo" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Realizados</a></li>
+                        <li><a href="agregar-blog.php" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Add to </a></li>
+                        <li><a href="form-equipo" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Made</a></li>
                     </ul>
                 </li>
                 <li class="relative items-center">
                     <!-- Enlace con menú desplegable -->
                     <a href="#" class="text-black hover:bg-blue-600 hover:text-white rounded-md px-3 py-2 text-sm font-medium" id="exito-menu">
-                        <span>Historias de exito</span>
+                        <span>Success Stories</span>
                         <i class="fas fa-chevron-down ml-1"></i> <!-- Flecha hacia abajo -->
                     </a>
 
                     <!-- Menú desplegable -->
                     <ul class="absolute top-10 left-1/2 transform -translate-x-1/2 bg-white shadow-md rounded-md hidden" id="exito-menu-items">
-                        <li><a href="form-medica.php" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Agregar </a></li>
-                        <li><a href="form-equipo" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Realizados</a></li>
+                        <li><a href="form-medica.php" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Add to </a></li>
+                        <li><a href="form-equipo" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Made</a></li>
                     </ul>
                 </li>
             </ul>
@@ -133,19 +133,19 @@ if (isset($_POST["submit"])) {
                     echo '<li><a href="#" class="block px-1 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">' . $_SESSION['nombre'] . '</a></li>';
                 }
                 ?>
-                <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Configuración</a></li>
-                <li><a href="../PHP/close.php" class="block px-4 py-2 text-red-600 hover:bg-red-600 hover:text-white">Cerrar Sesión</a></li>
+                <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Configuration</a></li>
+                <li><a href="../PHP/close.php" class="block px-4 py-2 text-red-600 hover:bg-red-600 hover:text-white">Log out</a></li>
             </ul>
     </div>
-    <!-- Mobile menu, show/hide based on menu state. -->
+    <!-- Mobile menu, show/hide based on menu state. 
   <div class="sm:hidden" id="mobile-menu">
     <div class="space-y-1 px-2 pb-3 pt-2">
-      <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-      <a href="#" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Dashboard</a>
+       Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" 
+             <a href="#" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Dashboard</a>
       <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Team</a>
       <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Projects</a>
       <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Calendar</a>
-    </div>
+    </div>-->
   </div>
     </nav>
 
@@ -155,13 +155,13 @@ if (isset($_POST["submit"])) {
             <form method="POST" enctype="multipart/form-data" class="bg-white p-6 rounded-md shadow-lg">
                 <h2 class="text-2xl font-semibold mb-4 text-indigo-600 text-center">Agregar Blog</h2>
 
-                <label class="block mb-2">Título:</label>
+                <label class="block mb-2">Title:</label>
                 <input type="text" name="titulo" class="w-full px-3 py-2 border rounded focus:outline-none focus:border-indigo-600 mb-4">
 
-                <label class="block mb-2">Contenido:</label>
+                <label class="block mb-2">Content:</label>
                 <textarea name="contenido" rows="4" class="w-full px-3 py-2 border rounded focus:outline-none focus:border-indigo-600 mb-4"></textarea>
 
-                <label class="block mb-2">Imagen:</label>
+                <label class="block mb-2">Image:</label>
                 <input type="file" name="imagen" class="mb-4">
 
                 <button type="submit" name="submit" class="bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-4 rounded-full w-full">Publicar</button>
