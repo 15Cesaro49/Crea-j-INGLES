@@ -37,7 +37,7 @@ if (!isset($_SESSION['correo']) || empty($_SESSION['correo'])) {
   <nav class="bg-white p-4">
       <div class="flex justify-between items-center">
             <!-- Logo o nombre del sitio -->
-            <a href="#" class="text-green text-2xl font-bold">SaludRural</a>
+            <a href="#" class="text-green text-2xl font-bold">RuralHeat</a>
 
             <!-- Menú de navegación -->
             <ul class="flex space-x-4">
@@ -45,20 +45,20 @@ if (!isset($_SESSION['correo']) || empty($_SESSION['correo'])) {
                 <li class="relative">
                     <!-- Enlace con menú desplegable -->
                     <a href="#" class="text-black hover:bg-blue-600 hover:text-white rounded-md px-3 py-2 text-sm font-medium" id="donaciones-menu">
-                        <span>Donaciones</span>
+                        <span>Donations</span>
                         <i class="fas fa-chevron-down ml-1"></i> <!-- Flecha hacia abajo -->
                     </a>
 
                     <!-- Menú desplegable -->
                     <ul class="absolute top-10 left-1/2 transform -translate-x-1/2 bg-white shadow-md rounded-md hidden" id="donaciones-menu-items">
-                        <li><a href="form-medica.php" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Medicamentos</a></li>
-                        <li><a href="form-equipo" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Equipos medicos</a></li>
-                        <li><a href="form-insumo.php" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Isumos medicos</a></li>
-                        <li><a href="form-mone" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Monetaria</a></li>
+                        <li><a href="form-medica.php" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Medications</a></li>
+                        <li><a href="form-equipo" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Medical equipment</a></li>
+                        <li><a href="form-insumo.php" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Medical supplies</a></li>
+                        <li><a href="form-mone" class="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white">Monetary</a></li>
                     </ul>
                 </li>
                 <li><a href="blog.php" class="text-black hover:bg-blue-600 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Blog</a></li>
-                <li><a href="AcercaDe.html" class="text-black hover:bg-blue-600 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Acerca de</a></li>
+                <li><a href="AcercaDe.html" class="text-black hover:bg-blue-600 hover:text-white rounded-md px-3 py-2 text-sm font-medium">About us</a></li>
             </ul>
 
             <div class="relative">
@@ -93,25 +93,25 @@ if (!isset($_SESSION['correo']) || empty($_SESSION['correo'])) {
     <main>
     <section class="bg-blue-600 text-white py-24">
       <div class="container mx-auto text-center">
-        <h1 class="text-4xl font-bold mb-4">¡Ayúdanos a llevar la salud a zonas rurales!</h1>
-        <p class="text-lg mb-8">Tu generosa donación marca la diferencia en la vida de quienes más lo necesitan.</p>
-        <a href="#" class="bg-green-500 hover:bg-green-600 text-white py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out">Realizar Donación</a>
+        <h1 class="text-4xl font-bold mb-4">¡Help us bring health to rural areas!</h1>
+        <p class="text-lg mb-8">Your generous donation makes a difference in the lives of those who need it most.</p>
+        <a href="#" class="bg-green-500 hover:bg-green-600 text-white py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out">Make Donation</a>
       </div>
     </section>
     <section class="bg-white py-24">
       <div class="container mx-auto text-center">
-        <h2 class="text-2xl font-bold mb-4">Acerca de SaludRural</h2>
-        <p class="text-lg mb-8">En SaludRural, estamos comprometidos con...</p>
-        <a href="#" class="text-blue-600 hover:underline">Leer más sobre nuestra misión</a>
+        <h2 class="text-2xl font-bold mb-4">About RuralHeat</h2>
+        <p class="text-lg mb-8">At RuralHeat, we are committed to...</p>
+        <a href="#" class="text-blue-600 hover:underline">Read more about our mission</a>
       </div>
     </section>
 
     </main>
     <main>
       <section id="hero">
-        <h1>¡Bienvenido a SaludRural!</h1>
+        <h1>¡Welcome to RuralHeat!</h1>
         <p>
-          Ayudanos a apoyar a los mas necesitados
+        Help us support those in need
         </p></br>
         </p>
       </section>
@@ -142,7 +142,7 @@ if (!isset($_SESSION['correo']) || empty($_SESSION['correo'])) {
 </script>
 <footer class="bg-white text-black py-6">
     <div class="container mx-auto text-center">
-      <p>&copy; 2023 Mi Blog. Todos los derechos reservados.</p>
+      <p>&copy; 2023 . All rights reserved.</p>
     </div>
   </footer>
 

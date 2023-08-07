@@ -15,30 +15,30 @@
       <div class="forms-container">
         <div class="signin-signup">
           <form action="../php/login.php" class="sign-in-form" method="post" autocomplete="off">
-            <h2 class="title">Inicio de sesión</h2>
+            <h2 class="title">Login</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
-              <input type="text" placeholder="Correo electrónico" name="correo" required>
+              <input type="text" placeholder="E-mail " name="correo" required>
             </div>
             <div class="input-field">
               <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Contraseña" name="contraseña"  required>
+              <input type="password" placeholder="Password" name="contraseña"  required>
             </div>
             <input type="submit" value="INGRESAR" class="btn solid">
           </form>
           <form action="../php/registro.php" class="sign-up-form" method="post" autocomplete="off">
-            <h2 class="title">Regístrate</h2>
+            <h2 class="title">Register</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
-              <input type="text" placeholder="Nombre" name="nombre" required>
+              <input type="text" placeholder="Name" name="nombre" required>
             </div>
             <div class="input-field">
               <i class="fas fa-user"></i>
-              <input type="text" placeholder="Apellido" name="apellidos" required>
+              <input type="text" placeholder="Last name" name="apellidos" required>
               </div>
               <div class="input-field">
                 <i class="fas fas fa-phone"></i>
-                <input type="tel" placeholder="Teléfono" name="telefono" minlength="8" maxlength="11" required>
+                <input type="tel" placeholder="Phone" name="telefono" minlength="8" maxlength="11" required>
                 </div>
                 <div class="input-field">
                   <i class="fas far fa-id-card"></i>
@@ -46,11 +46,11 @@
                   </div>
             <div class="input-field">
               <i class="fas fa-envelope"></i>
-              <input type="email" placeholder="Correo electrónico" name="email" required>
+              <input type="email" placeholder="E-mail " name="email" required>
             </div>
             <div class="input-field">
              <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Contraseña" name="contra"  required>
+              <input type="password" placeholder="Password" name="contra"  required>
                   </div>
                   <input type="submit" class="btn" value="CREAR CUENTA">
           </form>
@@ -60,24 +60,24 @@
       <div class="panels-container">
         <div class="panel left-panel">
           <div class="content">
-            <h3>¿Nuevo aquí?</h3>
+            <h3>¿New here?</h3>
             <p>
-            ¡Regístrate ahora!
+            ¡Register now!
             </p>
             <button class="btn transparent" id="sign-up-btn">
-              REGISTRARME
+              Register
             </button>
           </div>
           <img src="../IMAGENES/mano.png" class="image" alt="" >
         </div>
         <div class="panel right-panel">
           <div class="content">
-            <h3>¿Ya tienes cuenta?</h3>
+            <h3>¿You already have an account?</h3>
             <p>
-              ¡Inicia sesión y haz tu donación ahora!
+              ¡Log in and make your donation now!
             </p>
             <button class="btn transparent" id="sign-in-btn">
-              Iniciar sesión
+            Login
             </button>
           </div>
           <img src="../IMAGENES/mano-login.png" class="image" alt="" >
